@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <SeekBar
+        android:id="@+id/seekbar01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+   <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <Button
+           android:id="@+id/button01"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="播放音频"
+           />
+         <Button
+           android:id="@+id/button02"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="停止音频"
+           />
+   </LinearLayout>     
+   <SeekBar 
+       android:id="@+id/seekbar02"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"/>  
+   
+   <SurfaceView 
+       android:id="@+id/surfaceview01"
+       android:layout_width="fill_parent"
+       android:layout_height="250dip"
+       />
+   <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+       <Button
+          android:id="@+id/button03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="播放视频"
+          />
+      <Button
+          android:id="@+id/button04"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="停止视频"
+     
+          />       
+       
+   </LinearLayout>
+</LinearLayout>
